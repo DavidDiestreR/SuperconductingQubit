@@ -1,0 +1,23 @@
+name: scq
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scqubits=4.3.1
+  - qfit=3.0.2
+  - numpy
+  - scipy
+  - matplotlib
+  - h5py
+  - scikit-image
+  - qutip
+  - jupyterlab
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - pyside6
+  - dill
+  - pip
+  - pip:
+      - matplotlib-label-lines
+      - pathos
